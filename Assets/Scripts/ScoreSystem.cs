@@ -1,9 +1,11 @@
-using Database;
+using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Quaternion = UnityEngine.Quaternion;
+using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 
 public class ScoreSystem : MonoBehaviour
@@ -27,6 +29,13 @@ public class ScoreSystem : MonoBehaviour
     {
         Load();
         // setup leaderboard
+        LoadDataInContainer();
+    }
+
+    private void LoadDataInContainer()
+    {
+        if (_leaderBoard.Records == null) return;
+        _leaderBoard.SortByScore();
         foreach (var leaderBoardRecord in _leaderBoard.Records)
         {
             AddScoreBox(leaderBoardRecord);
@@ -62,20 +71,48 @@ public class ScoreSystem : MonoBehaviour
 
     public void Save()
     {
-        LocalDatabase.SaveJsonDataAsync(_leaderBoard,LocalDatabase.persistentDataPath, "LeaderBoard.json");
+        PlayerPrefs.SetString("LeaderBoard", _leaderBoard.ToJsonString());
+        // LocalDatabase.SaveJsonDataAsync(_leaderBoard,LocalDatabase.persistentDataPath, "LeaderBoard.json");
+    }
+
+    public void TestData()
+    {
+        var list = new List<ScoreRecord>();
+        for (var i = 0; i < 5; i++)
+        {
+            list.Add(new ScoreRecord
+            {
+                PlayerName = "TEST " + i,
+                Score = Random.Range(1, 300),
+            });
+            Debug.Log(list[i].ToJsonString());
+        }
+
+        _leaderBoard = new ScoreLeaderBoard
+        {
+            Records = list.ToArray()
+        };
+        LoadDataInContainer();
+        Save();
     }
 
     public void Load()
     {
-        LocalDatabase.LoadJsonDataAsync<ScoreLeaderBoard>(LocalDatabase.persistentDataPath, "LeaderBoard.json", value =>
+        if (PlayerPrefs.HasKey("LeaderBoard"))
         {
-            _leaderBoard = value;
-            Debug.Log(value.ToJsonString());
-            foreach (var leaderBoardRecord in _leaderBoard.Records)
-            {
-                AddScoreBox(leaderBoardRecord);
-            }
-        });
+            var value = PlayerPrefs.GetString("LeaderBoard");
+            Debug.Log(value);
+            _leaderBoard = JsonConvert.DeserializeObject<ScoreLeaderBoard>(value);
+        }
+        // LocalDatabase.LoadJsonDataAsync<ScoreLeaderBoard>(LocalDatabase.persistentDataPath, "LeaderBoard.json", value =>
+        // {
+        //     _leaderBoard = value;
+        //     Debug.Log(value.ToJsonString());
+        //     foreach (var leaderBoardRecord in _leaderBoard.Records)
+        //     {
+        //         AddScoreBox(leaderBoardRecord);
+        //     }
+        // });
     }
 }
 
@@ -97,6 +134,11 @@ public struct ScoreLeaderBoard
 
     public string ToJsonString()
     {
-        return JsonConvert.SerializeObject(Records);
+        return JsonConvert.SerializeObject(this);
+    }
+    
+    public void SortByScore()
+    {
+        Array.Sort(Records, (x, y) => y.Score.CompareTo(x.Score));
     }
 }
