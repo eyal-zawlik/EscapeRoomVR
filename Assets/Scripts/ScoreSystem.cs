@@ -72,7 +72,6 @@ public class ScoreSystem : MonoBehaviour
     public void Save()
     {
         PlayerPrefs.SetString("LeaderBoard", _leaderBoard.ToJsonString());
-        // LocalDatabase.SaveJsonDataAsync(_leaderBoard,LocalDatabase.persistentDataPath, "LeaderBoard.json");
     }
 
     public void TestData()

@@ -52,3 +52,16 @@ To facilitate teleportation, we added teleportation anchor objects throughout th
 ![img_9.png](img_9.png)
 ![img_10.png](img_10.png)
 ![img_11.png](img_11.png)
+
+**Fire Torch**
+
+we have added fire torch in the lobby scene when you look gaze it first time it start fire.
+![img_12.png](img_12.png)
+![img_13.png](img_13.png)
+
+for UI we have menu and high score.
+![img_14.png](img_14.png)
+![img_15.png](img_15.png)
+
+we use PlayerPref to save the data.
+![img_16.png](img_16.png)
