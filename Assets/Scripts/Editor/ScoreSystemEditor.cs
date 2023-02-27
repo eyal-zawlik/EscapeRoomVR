@@ -1,9 +1,25 @@
+using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Editor
 {
+    [CustomEditor(typeof(GameManager))]
+    public class GameManagerEditor : UnityEditor.Editor
+    {
+        // public override void OnInspectorGUI()
+        // {
+        //     base.OnInspectorGUI();
+        //     var script = (GameManager)target;
+        //     if (GUILayout.Button("Spin Clock"))
+        //     {
+        //         script.SpinClock();
+        //     }
+        // }
+    }
+    
     [CustomEditor(typeof(ScoreSystem))]
     public class ScoreSystemEditor : UnityEditor.Editor
     {

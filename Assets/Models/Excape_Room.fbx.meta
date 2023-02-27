@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: c89d52dd90f63504ea0f9450da64e827
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14_bighorn_sheep
+    second: {fileID: 2100000, guid: cd1ed83c59b310d4d930649256c91424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15_caribou
+    second: {fileID: 2100000, guid: 3d99a0f61b14a5a4b8b4b1d6c494613e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 25_wolf
+    second: {fileID: 2100000, guid: f6b4f9e1eb615374aad5d2a437e7cd4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 33_deer
+    second: {fileID: 2100000, guid: ce073d1615f28224d922e36f47bb7e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bake
+    second: {fileID: 2100000, guid: 7873ca57f03fdec4ea2ce2b23f4a2297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bones
+    second: {fileID: 2100000, guid: 177eaad36e0586a4b9aff1811df0fe25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escape_rm_door_left
+    second: {fileID: 2100000, guid: 339d95c51e24b8041a3e7ead647a729b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_color
+    second: {fileID: 2100000, guid: 98562953f8858d14fa3a34f5f832836b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_door_right
+    second: {fileID: 2100000, guid: df2bbdbbd1026a7469dd498fed9c61aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_flags
+    second: {fileID: 2100000, guid: 766cdcd90354ff84aab1b58859d8d24a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_pots
+    second: {fileID: 2100000, guid: 67b1e8dd42e010f449e227d440328fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_rocks_color
+    second: {fileID: 2100000, guid: 28fc41156692c794b915a40945075d02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Excape_room_baked_roof_Color
+    second: {fileID: 2100000, guid: de237eca90c584f4b9417b39a21c8c92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cob_webs
+    second: {fileID: 2100000, guid: aafe1d4d61944bb4bb714b1aea90aea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coin1.001
+    second: {fileID: 2100000, guid: 3d59840099d744a4a8c73631530f9b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coin2.001
+    second: {fileID: 2100000, guid: b50437ead9d3c7947a38d739f664eee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coin3.001
+    second: {fileID: 2100000, guid: 5334f12288eb1394aaa16ef1858f9daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: a1ea3b0925d2c3949a51adab6d7fd9cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet
+    second: {fileID: 2100000, guid: ff58b74531f959543850c83dc6fb4e47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pieces_puzzle
+    second: {fileID: 2100000, guid: dbf2da761c313ad4eaf58679590524a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sand
+    second: {fileID: 2100000, guid: 8238616f2521a3943b6bc7dc01266e58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel
+    second: {fileID: 2100000, guid: b90353e9360366840a67b38a8061b0a8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 14_bighorn_sheep_baseColor
+    second: {fileID: 2800000, guid: 5f0c7e9e6cd5c9546b768018ad36b991, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 14_bighorn_sheep_normal
+    second: {fileID: 2800000, guid: 7eb1325089ef6a94cb540cad561aace3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 15_caribou_baseColor
+    second: {fileID: 2800000, guid: 6b130acc089bc174f98d86815f962bcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 15_caribou_normal
+    second: {fileID: 2800000, guid: 553db0d014efd724cb33df5518ee9f59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 25_wolf_baseColor
+    second: {fileID: 2800000, guid: 84e78d609b7abc242b93325f5aeb1e4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 25_wolf_normal
+    second: {fileID: 2800000, guid: d52875cd1d2f0ec489246a352f2f3675, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 33_deer_baseColor
+    second: {fileID: 2800000, guid: 231cd1242464ee248b05dbb9d64995ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 33_deer_normal
+    second: {fileID: 2800000, guid: 24c54b024ded6674db4deaca850b43f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bake_baseColor
+    second: {fileID: 2800000, guid: 574c63b50247cc24d9758c4a7c58f546, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bake_normal
+    second: {fileID: 2800000, guid: 918ba2b3627d57941a28204fe300ed98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bones_baseColor
+    second: {fileID: 2800000, guid: 5ad1b8aad08ae0e45b3d59ecd18355d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bones_normal
+    second: {fileID: 2800000, guid: 1809c10b15f1a8b46a0140c182cb4f9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escaoe_rm_door_left
+    second: {fileID: 2800000, guid: 748b8d7e87c686146acd66059bf793da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_color
+    second: {fileID: 2800000, guid: 3bf2ba29e093f5e43b4207b04114c763, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_door_right
+    second: {fileID: 2800000, guid: 0acbb0bef5ab75f4a9b0e1f60ac1ace4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_flags
+    second: {fileID: 2800000, guid: 617ae9c529b60cb45bbeccfa7a00de88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_pots
+    second: {fileID: 2800000, guid: 2adf7e86afb731c4f9c1f6ef2815aba5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_rocks_color
+    second: {fileID: 2800000, guid: 73a67b4cdf92bf04ab524df3e6f12273, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escape_room_roof_baked_color
+    second: {fileID: 2800000, guid: f723e28b54390fd4aa18341bdc5f43c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material_baseColor
+    second: {fileID: 2800000, guid: 78b459a81f4b083448a826394468adb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material_normal
+    second: {fileID: 2800000, guid: 47040034cfd91984a9ed71bbe5459564, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_004_COLOR2222
+    second: {fileID: 2800000, guid: 43418153664fe1d49a48ae2db69ff3e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_004_Normal
+    second: {fileID: 2800000, guid: f4b311e3276df6c42a2568a69128fde7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_004_ROUGH
+    second: {fileID: 2800000, guid: c36dede7c5bd5e2468ba4ee870cb073d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: material_0_baseColor
+    second: {fileID: 2800000, guid: 286229a29fd7b4147a1437d00d261574, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: material_0_normal
+    second: {fileID: 2800000, guid: 9820e79d24c10e14c92c819a9f187ce5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: puzzle
+    second: {fileID: 2800000, guid: 602f93b3d9751a64fb76861ec56106cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wheel_baseColor
+    second: {fileID: 2800000, guid: ce05c30c736a688488398a0a7df01301, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wheel_normal
+    second: {fileID: 2800000, guid: 971650ebfcb415141bd51bd890b946c9, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

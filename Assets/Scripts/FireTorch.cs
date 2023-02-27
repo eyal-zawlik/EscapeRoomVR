@@ -29,7 +29,8 @@ public class FireTorch : MonoBehaviour
     {
         if (_hasLookedAt)
         {
-            fireAudio.Play();
+            if(fireAudio.gameObject.activeSelf)
+                fireAudio.Play();
             return;
         }
         if (isHandTorch) return;

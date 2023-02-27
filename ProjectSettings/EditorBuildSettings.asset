@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LobbyRoom.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/EscapeRoom.unity
+    guid: 235361982bd9355458cd4c06a244fb46
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 845075fa53255f34e80d1f8823b4a724,
       type: 2}

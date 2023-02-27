@@ -65,3 +65,62 @@ for UI we have menu and high score.
 
 we use PlayerPref to save the data.
 ![img_16.png](img_16.png)
+
+---------------------------------------------------------------------------------------------------------
+**Part 2**
+Lobby Environment Updates.
+improve the Quality of Teleportation Anchor with Animation on Hover.
+![img_17.png](img_17.png)
+
+we created a menu where player can enter his name and have 3 options start, highscore and quit. which do Jobs as they are named.
+![img_18.png](img_18.png)
+
+We created 2nd Scene Name as Escape Room. we created the following environment shows in pictures.
+![img_19.png](img_19.png)
+![img_20.png](img_20.png)
+![img_21.png](img_21.png)
+![img_22.png](img_22.png)
+![img_23.png](img_23.png)
+![img_24.png](img_24.png)
+![img_25.png](img_25.png)
+![img_26.png](img_26.png)
+
+we created 3 puzzles in the Door.
+
+
+Puzzle 1 Missing Peace from the Door.
+![img_27.png](img_27.png)
+
+Puzzle 2 Finding 3 Coins 
+![img_28.png](img_28.png)
+![img_29.png](img_29.png)
+
+
+Numeric Wheel Lock. Puzzle 3
+![img_30.png](img_30.png)
+
+solving puzzle 1 and 2 are very easy you just find the peaces and place them in the socket. of the door.
+
+now to solve the wheel lock you need to get the code from this clock
+![img_31.png](img_31.png)
+
+you will get the key near the clock and you have to grab it and put it into the clock socket. then it will spin and you can get the a b and c values by looking at the arrows direction.
+then applying this code (a+b)*c get the code to add into door.
+![img_32.png](img_32.png)
+
+
+**What we learned and used in making these scene.**
+we learned working with Sockets. unity animations.
+
+User Interface of the part 2
+
+Introduction. player is guided to what todo in the game.
+![img_33.png](img_33.png)
+
+Game Over Menu
+![img_34.png](img_34.png)
+
+in game over section we save the player score. into unity PlayerPrefs LocalData. and we hint the user how to get the game.
+we calculate the score by diving the 999 by time spend by the user.
+`var score = Mathf.RoundToInt(999 / _timeSpend);
+`
