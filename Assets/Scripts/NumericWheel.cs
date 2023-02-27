@@ -13,7 +13,7 @@ public class NumericWheel : MonoBehaviour
    public void SetValue(int index)
    {
       var codeStr = $"{GameManager.instance.clockCode}".PadLeft(3, '0');
-      currentValue = codeStr[index];
+      currentValue = int.Parse(codeStr[index]+"");
       animator.SetInteger("Value", currentValue);
    }
 
